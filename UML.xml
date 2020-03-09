@@ -1,32 +1,32 @@
-<mxfile host="www.draw.io" modified="2020-02-14T21:00:03.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" etag="AzuguSphGzpa1AshMlOI" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-03-09T02:00:52.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="2ha7AHDpOsFacRewUTPJ" version="12.8.1" type="github">
   <diagram id="Q6YViHguL8jzXZ51ugae" name="Page-1">
     <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
         <mxCell id="P4Xl0i1vcsR5g6T8TRhD-1" value="Game" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="40" width="280" height="40" as="geometry"/>
+          <mxGeometry x="420" y="40" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P4Xl0i1vcsR5g6T8TRhD-2" value="- cGuess : guess&lt;br&gt;- Code : guess&lt;br&gt;- numGuess : int&lt;br&gt;- wPeg : int&lt;br&gt;- bPeg : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="420" y="80" width="280" height="70" as="geometry"/>
+        <mxCell id="P4Xl0i1vcsR5g6T8TRhD-2" value="- cGuess : guess&lt;br&gt;- Code : guess&lt;br&gt;- numGuess : int&lt;br&gt;- wPeg : int&lt;br&gt;- bPeg : int&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="420" y="80" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P4Xl0i1vcsR5g6T8TRhD-3" value="+ Game() :&lt;br&gt;+ genFeedback() : void&lt;br&gt;+ playGame() : void&lt;br&gt;- getGuess() : void&lt;br&gt;- isWinner() : bool&lt;br&gt;- outofGuesses() : bool" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="420" y="150" width="280" height="90" as="geometry"/>
+        <mxCell id="P4Xl0i1vcsR5g6T8TRhD-3" value="+ Game() :&lt;br&gt;+ genFeedback() : void&lt;br&gt;+ playGame() : void&lt;br&gt;- getGuess() : void&lt;br&gt;- isWinner() : bool&lt;br&gt;- outofGuesses() : bool&lt;br&gt;- getMin(int,int) : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="420" y="150" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="P4Xl0i1vcsR5g6T8TRhD-4" value="2:1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="P4Xl0i1vcsR5g6T8TRhD-5" target="P4Xl0i1vcsR5g6T8TRhD-3" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P4Xl0i1vcsR5g6T8TRhD-5" value="Guess" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="320" width="280" height="40" as="geometry"/>
+          <mxGeometry x="240" y="320" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="P4Xl0i1vcsR5g6T8TRhD-6" value="- aGuess : int [4]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="240" y="360" width="280" height="30" as="geometry"/>
+          <mxGeometry x="240" y="360" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P4Xl0i1vcsR5g6T8TRhD-7" value="+Guess() :&lt;br&gt;+setGuess(int, int, int, int) : void&lt;br&gt;+setMaster() : void&lt;br&gt;+operator [ ] (int) : int&lt;br&gt;- isValid(int) : bool" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="240" y="390" width="280" height="80" as="geometry"/>
+          <mxGeometry x="240" y="390" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6fMxxYdqeeJLyO7Tzrvk-1" value="Luke Wynn&lt;br&gt;Class Design for Mastermind&lt;br&gt;CST-210&lt;br&gt;Done in class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="220" height="140" as="geometry"/>
+        <mxCell id="6fMxxYdqeeJLyO7Tzrvk-1" value="Luke Wynn&lt;br&gt;Class Design for Mastermind&lt;br&gt;CST-210&lt;br&gt;Done in class" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="40" width="220" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
